@@ -1,10 +1,16 @@
 let mongoose = require("mongoose");
 let db = require("../models");
 
-mongoose.connect("mongodb://localhost/workout", {
-  useNewUrlParser: true,
-  useFindAndModify: false,
-});
+mongoose.connect(
+  //double check this link
+  process.env.MONGODB_URI || "mongodb://localhost/secure-headland-36548",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+  }
+);
 
 let workoutSeed = [
   {
