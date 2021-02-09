@@ -2,7 +2,7 @@
 
 This project utilizes a Mongo database along with a Mongoose schema utilizing handle routes with Express.
 
-View the deployed application [here](https://secure-headland-36548.herokuapp.com/)
+View the deployed application [here](https://secure-headland-36548.herokuapp.com/).
 
 ## Motivation
 
