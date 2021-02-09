@@ -16,7 +16,15 @@ Screenshot of the entry page:
 
 ## Code Example
 
+Here is an interior image of the Workout.js file:
+
+![image](https://user-images.githubusercontent.com/70075341/107315990-5d045580-6a5d-11eb-88c3-12bfbdf7eb55.JPG)
+
 ## Features
+
+- no SQL database (Mongo)
+
+- fitness tracker
 
 ## License
 
